@@ -4,7 +4,7 @@
 //
 //  Copyright © 2016 Krimpedance. All rights reserved.
 //
-
+#if !os(macOS)
 import UIKit
 import KRActivityIndicatorView
 
@@ -331,3 +331,4 @@ extension KRProgressHUD {
         shared.dismiss(completion: completion)
     }
 }
+#endif

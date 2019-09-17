@@ -4,8 +4,9 @@
 //
 //  Copyright © 2016 Krimpedance. All rights reserved.
 //
-
+#if !os(macOS)
 import UIKit
+
 
 private let fadeTime = Double(0.2)
 private let hudViewMargin = CGFloat(50)
@@ -253,3 +254,4 @@ extension KRProgressHUD {
         ])
     }
 }
+#endif

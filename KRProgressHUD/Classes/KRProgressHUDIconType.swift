@@ -4,8 +4,10 @@
 //
 //  Copyright © 2016 Krimpedance. All rights reserved.
 //
-
+#if !os(macOS)
 import UIKit
+import Foundation
+
 
 enum KRProgressHUDIconType {
     case success, info, warning, error
@@ -115,3 +117,4 @@ private extension KRProgressHUDIconType {
         return path.cgPath
     }
 }
+#endif

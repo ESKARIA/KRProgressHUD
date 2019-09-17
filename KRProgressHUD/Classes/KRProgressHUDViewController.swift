@@ -4,7 +4,7 @@
 //
 //  Copyright © 2016 Krimpedance. All rights reserved.
 //
-
+#if !os(macOS)
 import UIKit
 
 class KRProgressHUDViewController: UIViewController {
@@ -31,3 +31,4 @@ class KRProgressHUDViewController: UIViewController {
         return statusBarHidden
     }
 }
+#endif

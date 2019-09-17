@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "KRActivityIndicatorView",
+        "repositoryURL": "https://github.com/ESKARIA/KRActivityIndicatorView.git",
+        "state": {
+          "branch": "swiftPM",
+          "revision": "2d9b81aac8d7d8f87284fa85a3ca8238c202d440",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -4,7 +4,7 @@
 //
 //  Copyright © 2017 Krimpedance. All rights reserved.
 //
-
+#if !os(macOS)
 import UIKit
 
 // MARK: - UIApplication extension ------------
@@ -32,3 +32,4 @@ extension NSLayoutConstraint {
         self.init(item: view1, attribute: attr1, relatedBy: relation, toItem: view2, attribute: attr2 ?? attr1, multiplier: 1.0, constant: constant)
     }
 }
+#endif
