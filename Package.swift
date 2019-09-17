@@ -10,7 +10,7 @@ let package = Package(name: "KRProgressHUD", platforms: [.iOS(.v8)],
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-         .package(url: "https://github.com/ESKARIA/KRActivityIndicatorView.git",  .branch("swiftPM")),
+         .package(url: "https://github.com/ESKARIA/KRActivityIndicatorView.git", from: "1.0.6"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
